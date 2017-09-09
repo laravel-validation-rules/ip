@@ -1,0 +1,31 @@
+{
+    "name": "laravel-validation-rules/colour",
+    "descrption": "Validate if an ip address is public or private.",
+    "type": "library",
+    "keywords": [ "laravel", "validation", "ip" ],
+    "require": {
+        "illuminate/contracts": "^5.5",
+        "symfony/http-foundation": "^3.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.3"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ashley Clarke",
+            "email": "me@ashleyclarke.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LVR\\IP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LVR\\IP\\Tests\\": "tests/"
+        }
+    }
+}
