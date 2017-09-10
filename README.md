@@ -20,6 +20,12 @@ Validates an ip address is either public or private. Supports ipv4 & ipv6.
   </a>
 </p>
 
+## Installation
+
+```bash
+composer require laravel-validation-rules/ip
+```
+
 ## Usage
 
 Validate an ip address is a public address.
