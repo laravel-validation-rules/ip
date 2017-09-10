@@ -1,6 +1,6 @@
 {
     "name": "laravel-validation-rules/ip",
-    "descrption": "Validate if an ip address is public or private.",
+    "description": "Validate if an ip address is public or private.",
     "type": "library",
     "keywords": [ "laravel", "validation", "ip" ],
     "require": {
